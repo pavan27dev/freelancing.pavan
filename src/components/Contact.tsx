@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
   const openWhatsApp = (message: string = '') => {
     const defaultMessage = message || `Hi! I'm ${formData.name}. ${formData.message}`;
     const encodedMessage = encodeURIComponent(defaultMessage);
-    window.open(`https://wa.me/1234567890?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/917993637003?text=${encodedMessage}`, '_blank');
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
